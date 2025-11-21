@@ -273,7 +273,8 @@
                     </div>
                     <div>
                         <h2 class="text-2xl font-semibold text-magenta-neon mb-1 tracking-wider">PANTALLA 02 | POSICIONAMIENTO PÉNDULO</h2>
-                        <p class="text-color-text-light">Ubique el péndulo en la posición extrema izquierda para definir el punto de lanzamiento inicial.</p>
+                        <p class="text-color-text-light">Ubique el péndulo en la posición extrema izquierda o a la derecha de tal manera que el péndulo se 
+                            alinee con el motor para definir el punto de lanzamiento inicial.</p>
                     </div>
                 </div>
             </div>
@@ -282,8 +283,9 @@
                 <div class="flex items-start space-x-4">
                     <div class="step-counter rounded-md flex items-center justify-center text-xl">03</div>
                     <div>
-                        <h2 class="text-2xl font-semibold text-cyan-neon mb-1 tracking-wider">PANTALLA 03 | SELECCIÓN DE OSCILACIONES</h2>
-                        <p class="text-color-text-light">Confirme el número de oscilaciones que desea tomar para optimizar la obtención de datos.</p>
+                        <h2 class="text-2xl font-semibold text-cyan-neon mb-1 tracking-wider">PANTALLA 03 | SELECCIÓN DE ángulo</h2>
+                        <p class="text-color-text-light">Confirme el ángulo que desea tomar, teniendo en cuenta que al ubicarlo al extremo izquierdo se posiciona
+                            a 50° y al ubicarlo al lado derecho se posiciona a 35°.</p>
                         <div class="mt-4 flex space-x-4">
                             <span class="terminal-button font-mono px-4 py-2 rounded transition duration-300 inline-block text-lg">34°</span>
                             <span class="terminal-button font-mono px-4 py-2 rounded transition duration-300 inline-block text-lg">40°</span>
@@ -336,12 +338,11 @@
         <h3 class="text-2xl font-bold text-center text-cyan-neon mb-6 tracking-wider">Demostración de uso G-FPS</h3>
 
         <div class="video-container">
-            <iframe 
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" 
-                title="Video Demostrativo G-FPS (Placeholder)" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
+            <section class="manual-container">
+                <h3 class="text-2xl font-bold text-center">Descarga o Visualiza el Manual</h3>
+                <p>Abre el archivo `manual_de_uso.mp4` o una versión en PDF si está disponible.</p>
+                <a href="manual_de_uso.mp4" target="_blank" class="enlace-manual">Abrir Manual</a>
+            </section>
         </div>
 
     </section>
@@ -401,3 +402,4 @@
     </script>
 </body>
 </html>
+
